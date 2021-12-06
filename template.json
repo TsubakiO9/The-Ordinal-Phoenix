@@ -1,6 +1,13 @@
 {
     "Actor":{},
-    "Item":{},
+    "Item":{
+        "types":[
+            "prueba"
+        ],
+        "prueba":{
+            "damage": "guns"
+        }
+    },
     "Vehículos":{
         "types":[
             "1"
