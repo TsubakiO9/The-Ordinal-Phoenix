@@ -1,4 +1,4 @@
-import OrdinalPhoenixItemSheet from "./module/sheets/Ordinal-PhoenixItemSheet";
+import OrdinalPhoenixItemSheet from "./module/sheets/Ordinal-PhoenixItemSheet.js";
 
 Hooks.once("init", function () {
     console.log("Ordinal-Phoenix | Initialising Ordinal Adventure");
