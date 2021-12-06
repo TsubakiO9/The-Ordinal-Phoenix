@@ -3,7 +3,7 @@
     "Título": "Ordinal-Phoenix",
     "Descripción": "",
     "Autor": "Tsubaki",
-    "Version": "0.01",
+    "Version": "0.0.1",
     "minimunCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "esmodules": [
