@@ -16,8 +16,7 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "vida",
     "secondaryTokenAttribute": "power",
-    "initiative": "1d100",
-    "url": "https://github.com/TsubakiO9/phoenix/",
-    "manifest": "https://github.com/TsubakiO9/phoenix/blob/main/system.json",
+    "url": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/",
+    "manifest": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/blob/main/system.json",
     "download": ""
 }
