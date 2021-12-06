@@ -1,9 +1,9 @@
 {
-    "Nombre": "Ordinal-Phoenix",
-    "Título": "Ordinal-Phoenix",
-    "Descripción": "",
-    "Autor": "Tsubaki",
-    "Version": "0.0.1",
+    "name": "Ordinal-Phoenix",
+    "title": "Ordinal-Phoenix",
+    "description": "",
+    "author": "Tsubaki",
+    "version": "0.0.1",
     "minimunCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "esmodules": [
