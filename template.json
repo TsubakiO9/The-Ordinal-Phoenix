@@ -1,6 +1,6 @@
 {
-    "PJ":{},
-    "Objetos":{},
+    "Actor":{},
+    "Item":{},
     "Vehículos":{
         "types":[
             "1"
