@@ -2,9 +2,9 @@
     "Actor":{},
     "Item":{
         "types":[
-            "prueba"
+            "weapon"
         ],
-        "prueba":{
+        "weapon":{
             "damage": "guns"
         }
     },
