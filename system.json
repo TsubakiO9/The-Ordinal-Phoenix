@@ -1,0 +1,25 @@
+{
+    "Nombre": "Ordinal",
+    "Título": "Ordinal",
+    "Descripción": "",
+    "Autor": "Tsubaki",
+    "Version": "0.01",
+    "minimunCoreVersion": "8.9",
+    "compatibleCoreVersion": "8.9",
+    "esmodules": [
+        "Ordinal.js"
+    ],
+    "styles": [
+        "Ordinal.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+        
+    ],
+    "gridDistance": "3",
+    "gridUnits": "m",
+    "primaryTokenAttribute": "vida",
+    "initiative": "1d100"
+}
