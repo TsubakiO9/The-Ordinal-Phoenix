@@ -1,25 +1,23 @@
 {
     "name": "phoenix",
-    "title": "Ordinal-Phoenix",
+    "title": "The Ordinal Phoenix",
     "description": "",
     "author": "Tsubaki",
     "version": "0.0.1",
     "minimunCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
-    "esmodules": [
-        "phoenix.js"
-    ],
-    "styles": [
-        "phoenix.css"
-    ],
-    "packs": [
-
-    ],
-    "languages": [
-        
-    ],
-    "gridDistance": "3",
+    "templateVersion": 1,
+    "esmodules": ["phoenix.js"],
+    "styles": ["phoenix.css"],
+    "packs": [],
+    "socket":true,
+    "languages": [],
+    "gridDistance": 3,
     "gridUnits": "m",
     "primaryTokenAttribute": "vida",
-    "initiative": "1d100"
+    "secondaryTokenAttribute": "power",
+    "initiative": "1d100",
+    "url": "https://github.com/TsubakiO9/phoenix/",
+    "manifest": "https://github.com/TsubakiO9/phoenix/blob/main/system.json",
+    "download": ""
 }
