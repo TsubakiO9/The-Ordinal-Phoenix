@@ -4,8 +4,8 @@
     "Descripción": "",
     "Autor": "Tsubaki",
     "Version": "0.01",
-    "minimunCoreVersion": "8.9",
-    "compatibleCoreVersion": "8.9",
+    "minimunCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "0.8.9",
     "esmodules": [
         "Ordinal.js"
     ],
