@@ -1,5 +1,5 @@
 {
-    "name": "Ordinal-Phoenix",
+    "name": "phoenix",
     "title": "Ordinal-Phoenix",
     "description": "",
     "author": "Tsubaki",
@@ -7,10 +7,10 @@
     "minimunCoreVersion": "0.8.9",
     "compatibleCoreVersion": "0.8.9",
     "esmodules": [
-        "Ordinal.js"
+        "phoenix.js"
     ],
     "styles": [
-        "Ordinal.css"
+        "phoenix.css"
     ],
     "packs": [
 
