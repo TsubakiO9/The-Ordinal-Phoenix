@@ -2,19 +2,27 @@
     "Actor":{},
     "Item":{
         "types":[
-            "weapon"
+            "weapon",
+            "vehicle"
         ],
-        "weapon":{
-            "damage": "guns"
-        }
-    },
-    "Vehículos":{
-        "types":[
-            "1"
-        ],
-        "1":{
-            "Ataque": "guns",
-            "Vida": "hp"
+        "templates":{
+            "itemDescription": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates": [
+                "itemDescription"
+            ],
+            "damage": "guns",
+            "algo": "si"
+        },
+        "vehicle": {
+            "templates": [
+                "itemDescription"
+            ],
+            "aceleration": 0,
+            "frame": 0
         }
     }
 }
