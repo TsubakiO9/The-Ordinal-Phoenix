@@ -1,4 +1,13 @@
 {
     "PJ":{},
-    "Objetos:":{}
+    "Objetos":{},
+    "Vehículos":{
+        "types":[
+            "1"
+        ],
+        "1":{
+            "Ataque": "guns",
+            "Vida": "hp"
+        }
+    }
 }
