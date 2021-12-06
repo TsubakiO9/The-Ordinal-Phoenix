@@ -17,6 +17,6 @@
     "primaryTokenAttribute": "vida",
     "secondaryTokenAttribute": "power",
     "url": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/",
-    "manifest": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/blob/main/system.json",
+    "manifest": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/raw/main/system.json",
     "download": ""
 }
