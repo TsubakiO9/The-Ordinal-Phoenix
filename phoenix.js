@@ -1,5 +1,5 @@
 import { PHOENIX } from "./module/config.js";
-import { phoenixItemSheet } from "./module/sheets/phoenixItemSheet.js";
+import { PHOENIXItemSheet } from "./module/phoenixItemSheet.js";
 import {} from "";
 
 Hooks.once("init", function () {
@@ -8,5 +8,5 @@ Hooks.once("init", function () {
     CONFIG.PHOENIX = PHOENIX;
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("phoenix", phoenixItemSheet, { makeDefault: true });
+    Items.registerSheet("PHOENIX", phoenixItemSheet, { makeDefault: true });
 });
