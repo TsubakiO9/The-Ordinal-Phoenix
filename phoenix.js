@@ -5,7 +5,7 @@ import {} from "";
 Hooks.once("init", function () {
     console.log("phoenix | Initialising Ordinal Adventure");
     
-    CONFIG.phoenix = phoenix;
+    CONFIG.PHOENIX = PHOENIX;
 
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("phoenix", phoenixItemSheet, { makeDefault: true });
