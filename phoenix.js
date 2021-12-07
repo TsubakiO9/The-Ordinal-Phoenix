@@ -1,5 +1,5 @@
 import { PHOENIX } from "./module/config.js";
-import { sheet } from "./module/item/sheet.js";
+import { phoenixItem } from "./module/item/sheet.js";
 
 // Configuración Inicial de los Valores
 CONFIG.PHOENIX = PHOENIX;
@@ -12,5 +12,5 @@ Hooks.once("init", function () {
     CONFIG.PHOENIX = PHOENIX;
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("phoenix", sheet, { makeDefault: true });
+    Items.registerSheet("phoenix", phoenixItem, { makeDefault: true });
 });
