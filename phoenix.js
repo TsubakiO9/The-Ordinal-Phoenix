@@ -1,5 +1,5 @@
 import { PHOENIX } from "./module/config.js";
-import phoenixItem from "./module/item/sheet.js";
+import { phoenixItem } from "./module/item/sheet.js";
 
 // Configuración Inicial de los Valores
 CONFIG.PHOENIX = PHOENIX;
