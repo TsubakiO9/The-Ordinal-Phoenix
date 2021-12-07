@@ -1,5 +1,5 @@
 {
-    "Actor":{
+    "Actor": {
         "types": [ "PNJ","NPC","Vehiculos" ],
         "templates": {
             "común": {       
@@ -60,7 +60,17 @@
         }
         
     },
-    "Item":{
+
+        "characters": {
+            "templates": ["común"],
+            "xp": {
+                "valor": 0,
+                "min": 0,
+                "max": 300
+            }
+        },
+
+    "Item": {
         "types":["weapon","vehicle"],
         "templates":{
             "itemDescription": {
