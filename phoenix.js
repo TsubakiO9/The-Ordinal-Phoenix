@@ -1,9 +1,9 @@
 import { PHOENIX } from "./module/config.js";
-import { ItemSheet } from "./";
+import { ItemSheet } from "./module/item/sheet.js";
 import {} from "";
 
 Hooks.once("init", function () {
-    console.log("phoenix | Initialising Ordinal Adventure");
+    console.log("PHOENIX | Initialising Ordinal Adventure");
     
     CONFIG.PHOENIX = PHOENIX;
 
