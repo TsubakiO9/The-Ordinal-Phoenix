@@ -61,7 +61,7 @@
         
     },
 
-        "characters": {
+        "PNJ": {
             "templates": ["común"],
             "xp": {
                 "valor": 0,
