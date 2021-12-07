@@ -15,27 +15,27 @@
                     "pa": {"valor": 0,"bono": 0},
                     "pm": {"valor": 0,"bono": 0},
 
-                    "curación": {"valor": 0,"bono": 0},
-                    "muerte": {"valor": 0,"bono": 0},
+                    "cura": {"valor": 0,"bono": 0},
+                    "dead": {"valor": 0,"bono": 0},
                     
-                    "iniciativa": {"valor": 0,"bono": 0},
-                    "velocidad": {"valor": 0,"bono": 0},
+                    "ini": {"valor": 0,"bono": 0},
+                    "vel": {"valor": 0,"bono": 0},
 
                     "mele": {"valor": 0,"bono": 0},
                     "rango": {"valor": 0,"bono": 0},
                     "magia": {"valor": 0,"bono": 0},
-                    "defensa": {"valor": 0,"bono": 0},
+                    "def": {"valor": 0,"bono": 0},
 
-                    "bloquear": {"valor": 0,"bono": 0},
-                    "evadir": {"valor": 0,"bono": 0}
+                    "bloq": {"valor": 0,"bono": 0},
+                    "eva": {"valor": 0,"bono": 0}
                 },
                 "dominios": {
-                    "fisico": {"valor": 0,"bono": ""},
-                    "social": {"valor": 0,"bono": ""},
-                    "subterfujio": {"valor": 0,"bono": ""},
-                    "intelectual": {"valor": 0,"bono": ""},
-                    "creativo": {"valor": 0,"bono": ""},
-                    "perceptivo": {"valor": 0,"bono": ""}
+                    "fis": {"valor": 0,"bono": ""},
+                    "soc": {"valor": 0,"bono": ""},
+                    "sub": {"valor": 0,"bono": ""},
+                    "int": {"valor": 0,"bono": ""},
+                    "cre": {"valor": 0,"bono": ""},
+                    "per": {"valor": 0,"bono": ""}
                 },
                 "resistencias": {
                     "frio": {"valor": 0,"bono": "con"},

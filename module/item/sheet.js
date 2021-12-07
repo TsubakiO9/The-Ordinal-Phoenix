@@ -1,6 +1,6 @@
-export default class phoenixItemSheet extends ItemSheet {
+export default class ItemSheet extends ItemSheet {
     get template () {
-        return `systems/phoenixItemSheet/templates/sheets/${this.item.data.type}-sheet.html`;
+        return `systems/ItemSheet/templates/sheets/${this.item.data.type}-sheet.html`;
     }
 
     getdata(){
