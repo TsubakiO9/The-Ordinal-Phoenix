@@ -1,6 +1,6 @@
 export default class ItemSheet extends ItemSheet {
     get template () {
-        return `systems/ItemSheet/templates/sheets/${this.item.data.type}-sheet.html`;
+        return `systems/ItemSheet/templates/sheets/${this.item.data.type}.html`;
     }
 
     getdata(){
