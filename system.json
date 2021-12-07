@@ -4,23 +4,29 @@
   "description": "",
   "author": "Tsubaki",
   "authors": [],
-  "url": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/",
   "flags": {},
   "version": "0.0.1",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [],
-  "esmodules": ["module/phoenix.js"],
+  "esmodules": ["phoenix.js"],
   "styles": ["styles/phoenix.css"],
-  "languages": [{"lang": "esp","name": "Español","path": "lang/en.json"} ],
+  "languages": [
+    {
+      "lang": "esp",
+      "name": "Español",
+      "path": "lang/en.json"
+    }
+  ],
   "packs": [],
   "system": [],
   "dependencies": [],
   "socket": true,
-  "manifest": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/raw/main/system.json",
-  "download": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/archive/refs/heads/main.zip",
   "protected": false,
   "gridDistance": 3,
   "gridUnits": "m",
   "primaryTokenAttribute": "vida",
-  "secondaryTokenAttribute": "power"
+  "secondaryTokenAttribute": "power",
+  "url": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/",
+  "manifest": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/raw/main/system.json",
+  "download": "https://github.com/TsubakiO9/The-Ordinal-Phoenix/archive/refs/heads/main.zip"
 }
