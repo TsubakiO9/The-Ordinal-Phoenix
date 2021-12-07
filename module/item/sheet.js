@@ -1,5 +1,5 @@
 export default class phoenixItemSheet extends ItemSheet {
     get template() {
-        return `systems/phoenix/templates/items/${this.item.data.type}-sheet.html`;
+        return `systems/phoenix/templates/items/${this.item.data.type}-.html`;
     }
 }
