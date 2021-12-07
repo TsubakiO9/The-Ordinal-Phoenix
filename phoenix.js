@@ -1,5 +1,6 @@
 import { phoenix } from "./module/config.js";
-import OrdinalPhoenixItemSheet from "./module/sheets/phoenixItemSheet.js";
+import { phoenixItemSheet } from "./module/sheets/phoenixItemSheet.js";
+import {} from "";
 
 Hooks.once("init", function () {
     console.log("phoenix | Initialising Ordinal Adventure");
