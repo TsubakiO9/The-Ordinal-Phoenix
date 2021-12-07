@@ -72,24 +72,19 @@
 
     "Item": {
         "types":["weapon","vehicle"],
-        "templates":{
-            "itemDescription": {
-                "description": ""
-            }
-        },
         "weapon": {
-            "templates": [
-                "itemDescription"
-            ],
-            "damage": "guns",
-            "algo": "si"
+            "attackWith": "guns",
+            "damage": 0,
+            "concealment": 0,
+            "reload": 0,
+            "mookBonus": 0,
+            "pumpAction": false
         },
         "vehicle": {
-            "templates": [
-                "itemDescription"
-            ],
             "aceleration": 0,
-            "frame": 0
+            "frame": 0,
+            "handling": 0,
+            "personal": false
         }
     }
 }
