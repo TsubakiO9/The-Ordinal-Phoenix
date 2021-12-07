@@ -1,7 +1,7 @@
 export default class sheet extends ItemSheet {
     get template() {
         const path = "systems/phoenix/templates/items/";
-        return `${path}/${this.item.data.type}weapon.html`;
+        return `${path}/${this.item.data.type}.html`;
       }
 
     getdata(){

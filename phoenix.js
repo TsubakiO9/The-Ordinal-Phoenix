@@ -1,5 +1,5 @@
 import { PHOENIX } from "./module/config.js";
-import { phoenixItem } from "./module/item/sheet.js";
+import { phoenixItemSheet } from "./module/item/sheet.js";
 
 // Configuración Inicial de los Valores
 CONFIG.time.roundTime = 10;
@@ -11,5 +11,5 @@ Hooks.once("init", function () {
     CONFIG.PHOENIX = PHOENIX;
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("phoenix", phoenixItem, { makeDefault: true });
+    Items.registerSheet("phoenix", phoenixItemSheet, { makeDefault: true });
 });
