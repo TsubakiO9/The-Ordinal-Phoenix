@@ -10,12 +10,27 @@ PHOENIX.Atributos = {
 }
 
 PHOENIX.Caracteristicas = {
-    agl: "PHOENIX.CaracteristicaAgl",
-    con: "PHOENIX.Caracteristica",
-    des: "PHOENIX.Caracteristica",
-    fue: "PHOENIX.Caracteristica",
-    int: "PHOENIX.Caracteristica",
-    pod: "PHOENIX.Caracteristica"
+    pa: "PHOENIX.CaracteristicaPa",
+    pm: "PHOENIX.CaracteristicaPm",
+    curacion: "PHOENIX.CaracteristicaCuracion",
+    muerte: "PHOENIX.CaracteristicaMuerte",
+    iniciativa: "PHOENIX.CaracteristicaIniciativa",
+    velocidad: "PHOENIX.CaracteristicaVelocidad",
+    mele: "PHOENIX.CaracteristicaMele",
+    rango: "PHOENIX.CaracteristicaRango",
+    magia: "PHOENIX.CaracteristicaMagia",
+    defensa: "PHOENIX.CaracteristicaDefensa",
+    bloquear: "PHOENIX.CaracteristicaBloquear",
+    evadir: "PHOENIX.CaracteristicaEvadir"
+}
+
+PHOENIX.Dominios = {
+    fisico: "PHOENIX.Dominio",
+    social: "PHOENIX.Dominio",
+    subterfujio: "PHOENIX.Dominio",
+    intelectual: "PHOENIX.Dominio",
+    creativo: "PHOENIX.Dominio",
+    perceptivo: "PHOENIX.Dominio"
 }
 
 PHOENIX.attackTypes = {
