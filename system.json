@@ -15,7 +15,13 @@
   "styles": [
     "styles/phoenix.css"
   ],
-  "languages": [],
+  "languages": [
+    {
+        "lang": "esp",
+        "name": "Español",
+        "path": "lang/en.json"
+        } 
+    ],
   "packs": [],
   "system": [],
   "dependencies": [],

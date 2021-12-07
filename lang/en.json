@@ -1,0 +1,19 @@
+{
+    "phoenix": {
+        "attack": {
+            "none": "",
+            "guns": "",
+            "martialArts": "Martial Arts",
+            "sorcery": "Sorcery",
+            "creature": "Creature"
+        },
+        "weapon": {
+            "attackWith": "Attack with",
+            "damage": "Damage",
+            "conceal": "Conceal",
+            "reload": "Reload",
+            "mookBonus": "Bonus vs Mooks",
+            "pumpAction": "Pump Action?"
+        }
+    }
+}

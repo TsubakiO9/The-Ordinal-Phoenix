@@ -2,8 +2,8 @@ export const phoenix = {};
 
 phoenix.attackTypes = {
     none: "",
-    guns: "",
-    martialArts: "Martial Arts",
-    sorcery: "Sorcery",
-    creature: "Creature"
+    guns: "phoenix.attack.guns",
+    martialArts: "phoenix.attack.martialArts",
+    sorcery: "phoenix.attack.sorcery",
+    creature: "phoenix.attack.creature"
 }
