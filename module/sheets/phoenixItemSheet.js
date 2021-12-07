@@ -6,7 +6,7 @@ export default class phoenixItemSheet extends ItemSheet {
     getdata(){
         const data = super.getData();
 
-        data.config = CONFIG.phoenix;
+        data.config = CONFIG.PHOENIX;
         
         return data;
     }

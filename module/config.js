@@ -1,9 +1,18 @@
-export const phoenix = {};
+export const PHOENIX = {};
 
-phoenix.attackTypes = {
+PHOENIX.atributos = {
+    agl: "PHOENIX.AtributoAgl",
+    con: "PHOENIX.AtributoCon",
+    des: "PHOENIX.AtributoDes",
+    fue: "PHOENIX.AtributoFue",
+    int: "PHOENIX.AtributoInt",
+    pod: "PHOENIX.AtributoPod"
+}
+
+PHOENIX.attackTypes = {
     none: "",
-    guns: "phoenix.attack.guns",
-    martialArts: "phoenix.attack.martialArts",
-    sorcery: "phoenix.attack.sorcery",
-    creature: "phoenix.attack.creature"
+    guns: "PHOENIX.attack.guns",
+    martialArts: "PHOENIX.attack.martialArts",
+    sorcery: "PHOENIX.attack.sorcery",
+    creature: "PHOENIX.attack.creature"
 }

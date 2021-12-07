@@ -1,4 +1,4 @@
-import { phoenix } from "./module/config.js";
+import { PHOENIX } from "./module/config.js";
 import { phoenixItemSheet } from "./module/sheets/phoenixItemSheet.js";
 import {} from "";
 
