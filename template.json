@@ -1,5 +1,21 @@
 {
-    "Actor":{},
+    "Actor":{
+        "types":[
+            "PJ",
+            "PNJ",
+            "Invocaciones"
+        ],
+        "templates":{
+            "atributos": {
+                "agilidad": 0,
+                "constitucion": 0,
+                "destreza": 0,
+                "fuerza": 0,
+                "inteligencia": 0,
+                "poder": 0
+            }
+        }
+    },
     "Item":{
         "types":[
             "weapon",
