@@ -9,19 +9,9 @@
   "version": "0.0.1",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [],
-  "esmodules": [
-    "module/phoenix.js"
-  ],
-  "styles": [
-    "styles/phoenix.css"
-  ],
-  "languages": [
-    {
-        "lang": "esp",
-        "name": "Español",
-        "path": "lang/en.json"
-        } 
-    ],
+  "esmodules": ["module/phoenix.js"],
+  "styles": ["styles/phoenix.css"],
+  "languages": [{"lang": "esp","name": "Español","path": "lang/en.json"} ],
   "packs": [],
   "system": [],
   "dependencies": [],

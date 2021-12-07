@@ -1,18 +1,32 @@
 {
     "Actor":{
-        "types":[
-            "PJ",
-            "PNJ",
-            "Invocaciones"
-        ],
+        "types":["PNJ","NPC","OTRO"],
         "templates":{
             "atributos": {
-                "agilidad": 0,
-                "constitucion": 0,
-                "destreza": 0,
-                "fuerza": 0,
-                "inteligencia": 0,
-                "poder": 0
+                "agl": {
+                    "valor": 0,
+                    "bono": 0
+                },
+                "constitucion": {
+                    "valor": 0,
+                    "bono": 0
+                },
+                "destreza": {
+                    "valor": 0,
+                    "bono": 0
+                },
+                "fuerza": {
+                    "valor": 0,
+                    "bono": 0
+                },
+                "inteligencia": {
+                    "valor": 0,
+                    "bono": 0
+                },
+                "poder": {
+                    "valor": 0,
+                    "bono": 0
+                }
             }
         }
     },
