@@ -5,6 +5,6 @@ import phoenixItemSheet from "./module/item/sheet.js";
 Hooks.once("init", function () {
     console.log("phoenix | Initialising The Ordinal Adventure System");
 
-    Items.unregisterSheet("core", phoenixItemSheet);
+    Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("phoenix", phoenixItemSheet, { makeDefault: true });
 });
