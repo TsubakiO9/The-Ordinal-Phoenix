@@ -1,7 +1,8 @@
-export default class ItemPhoenix extends ItemSheet {
-    get template () {
-        return `systems/phoenix/templates/items/${this.item.data.type}.html`;
-    }
+export default class ItemsheetPhoenix extends ItemSheet {
+    get template() {
+        const path = "systems/phoenix/templates/items/";
+        return `${path}/${this.item.data.type}.html`;
+      }
 
     getdata(){
         const data = super.getData();
