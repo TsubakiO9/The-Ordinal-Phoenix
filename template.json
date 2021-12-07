@@ -12,11 +12,13 @@
                     "pod": {"valor": 0,"bono": 0}
                 },
                 "caracteristicas": {
-                    "curación": {"valor": 0,"bono": 0},
-                    "muerte": {"valor": 0,"bono": 0},
-                    "iniciativa": {"valor": 0,"bono": 0},
                     "pa": {"valor": 0,"bono": 0},
                     "pm": {"valor": 0,"bono": 0},
+
+                    "curación": {"valor": 0,"bono": 0},
+                    "muerte": {"valor": 0,"bono": 0},
+                    
+                    "iniciativa": {"valor": 0,"bono": 0},
                     "velocidad": {"valor": 0,"bono": 0},
 
                     "mele": {"valor": 0,"bono": 0},
@@ -28,20 +30,20 @@
                     "evadir": {"valor": 0,"bono": 0}
                 },
                 "dominios": {
-                    "fisico": {"valor": 0,"bono": 0},
-                    "social": {"valor": 0,"bono": 0},
-                    "subterfujio": {"valor": 0,"bono": 0},
-                    "intelectual": {"valor": 0,"bono": 0},
-                    "creativo": {"valor": 0,"bono": 0},
-                    "perceptivo": {"valor": 0,"bono": 0}
+                    "fisico": {"valor": 0,"bono": ""},
+                    "social": {"valor": 0,"bono": ""},
+                    "subterfujio": {"valor": 0,"bono": ""},
+                    "intelectual": {"valor": 0,"bono": ""},
+                    "creativo": {"valor": 0,"bono": ""},
+                    "perceptivo": {"valor": 0,"bono": ""}
                 },
                 "resistencias": {
-                    "frio": {"valor": 0,"bono": 0},
-                    "calor": {"valor": 0,"bono": 0},
-                    "electricidad": {"valor": 0,"bono": 0},
-                    "emfermedad": {"valor": 0,"bono": 0},
-                    "fisico": {"valor": 0,"bono": 0},
-                    "veneno": {"valor": 0,"bono": 0}
+                    "frio": {"valor": 0,"bono": "con"},
+                    "calor": {"valor": 0,"bono": "con"},
+                    "electricidad": {"valor": 0,"bono": "con"},
+                    "emfermedad": {"valor": 0,"bono": "con"},
+                    "fisico": {"valor": 0,"bono": "con"},
+                    "veneno": {"valor": 0,"bono": "con"}
                 },
 
                 "detalles": {
