@@ -1,5 +1,5 @@
 import { PHOENIX } from "./module/config.js";
-import { phoenixItemSheet } from "./module/item/sheet.js";
+import phoenixItemSheet from "./module/item/sheet.js";
 
 // Hooks
 Hooks.once("init", function () {
