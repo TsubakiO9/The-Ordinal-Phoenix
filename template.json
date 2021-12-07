@@ -1,40 +1,64 @@
 {
     "Actor":{
-        "types":["PNJ","NPC","OTRO"],
-        "templates":{
-            "atributos": {
-                "agl": {
-                    "valor": 0,
-                    "bono": 0
+        "types": [ "PNJ","NPC","Vehiculos" ],
+        "templates": {
+            "común": {       
+                "atributos": {
+                    "agl": {"valor": 0,"bono": 0},
+                    "con": {"valor": 0,"bono": 0},
+                    "des": {"valor": 0,"bono": 0},
+                    "fue": {"valor": 0,"bono": 0},
+                    "int": {"valor": 0,"bono": 0},
+                    "pod": {"valor": 0,"bono": 0}
                 },
-                "constitucion": {
-                    "valor": 0,
-                    "bono": 0
+                "caracteristicas": {
+                    "curación": {"valor": 0,"bono": 0},
+                    "muerte": {"valor": 0,"bono": 0},
+                    "iniciativa": {"valor": 0,"bono": 0},
+                    "pa": {"valor": 0,"bono": 0},
+                    "pm": {"valor": 0,"bono": 0},
+                    "velocidad": {"valor": 0,"bono": 0},
+
+                    "mele": {"valor": 0,"bono": 0},
+                    "rango": {"valor": 0,"bono": 0},
+                    "magia": {"valor": 0,"bono": 0},
+                    "defensa": {"valor": 0,"bono": 0},
+
+                    "bloquear": {"valor": 0,"bono": 0},
+                    "evadir": {"valor": 0,"bono": 0}
                 },
-                "destreza": {
-                    "valor": 0,
-                    "bono": 0
+                "dominios": {
+                    "fisico": {"valor": 0,"bono": 0},
+                    "social": {"valor": 0,"bono": 0},
+                    "subterfujio": {"valor": 0,"bono": 0},
+                    "intelectual": {"valor": 0,"bono": 0},
+                    "creativo": {"valor": 0,"bono": 0},
+                    "perceptivo": {"valor": 0,"bono": 0}
                 },
-                "fuerza": {
-                    "valor": 0,
-                    "bono": 0
+                "resistencias": {
+                    "frio": {"valor": 0,"bono": 0},
+                    "calor": {"valor": 0,"bono": 0},
+                    "electricidad": {"valor": 0,"bono": 0},
+                    "emfermedad": {"valor": 0,"bono": 0},
+                    "fisico": {"valor": 0,"bono": 0},
+                    "veneno": {"valor": 0,"bono": 0}
                 },
-                "inteligencia": {
-                    "valor": 0,
-                    "bono": 0
+
+                "detalles": {
+                    "biografia": {
+                        "value": "",
+                        "public": ""
+                    }
                 },
-                "poder": {
-                    "valor": 0,
-                    "bono": 0
+
+                "moneda": {
+                    "Radiant": 0
                 }
             }
         }
     },
     "Item":{
-        "types":[
-            "weapon",
-            "vehicle"
-        ],
+        "types":["weapon","vehicle"],
         "templates":{
             "itemDescription": {
                 "description": ""
