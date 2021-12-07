@@ -2,7 +2,7 @@ import { PHOENIX } from "./module/config.js";
 
 // Importar Documentos
 import ActorPhoenix from "./module/actor/entity.js";
-import ItemPhoenix from "./module/item/entity.js";
+import ItemPhoenix from "./module/item/sheet.js";
 import { TokenDocumentPhoenix, TokenPhoenix } from "./module/token.js";
 
 // Configuración Inicial de los Valores

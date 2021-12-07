@@ -58,6 +58,7 @@
                 }
             }
         }
+        
     },
     "Item":{
         "types":["weapon","vehicle"],

@@ -32,6 +32,6 @@
   "protected": false,
   "gridDistance": 3,
   "gridUnits": "m",
-  "primaryTokenAttribute": "vida",
-  "secondaryTokenAttribute": "power"
+  "primaryTokenAttribute": "",
+  "secondaryTokenAttribute": ""
 }
