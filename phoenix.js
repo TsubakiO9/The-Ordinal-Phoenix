@@ -12,5 +12,5 @@ Hooks.once("init", function () {
     CONFIG.PHOENIX = PHOENIX;
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("phoenix", phoenixItem, { makeDefault: true });
+    Items.registerSheet("phoenix", sheet, { makeDefault: true });
 });
