@@ -23,19 +23,16 @@ Hooks.once("init", function() {
     Actors.registerSheet("phoenix", ActorSheetPhoenixPNJ, {
         types: ["PNJ"],
         makeDefault: true,
-        label: "PHOENIX.SheetClassPNJ"
     });
 
     Actors.registerSheet("phoenix", ActorSheetPhoenixNPC, {
         types: ["NPC"],
         makeDefault: true,
-        label: "PHOENIX.SheetClassNPC"
     });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("dnd5e", ItemSheetPhoenix, {
+    Items.registerSheet("phoenix", ItemSheetPhoenix, {
         makeDefault: true,
-        label: "PHOENIX.SheetClassItem"
     });
 
  // Record Configuration Values:
