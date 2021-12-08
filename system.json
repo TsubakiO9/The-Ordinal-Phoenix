@@ -6,8 +6,8 @@
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "0.8.9",
   "author": "Tsubaki",
-  "esmodules": ["module/boilerplate.mjs"],
-  "styles": [".css"],
+  "esmodules": ["module/phoenix.js"],
+  "styles": ["css/phoenix.css"],
   "scripts": [],
   "packs": [],
   "languages": [
