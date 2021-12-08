@@ -103,7 +103,7 @@ async function createItemMacro(data, slot) {
       type: "script",
       img: item.img,
       command: command,
-      flags: { "boilerplate.itemMacro": true }
+      flags: { "phoenix.itemMacro": true }
     });
   }
   game.user.assignHotbarMacro(macro, slot);
