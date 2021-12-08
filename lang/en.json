@@ -1,22 +1,22 @@
 {
-  "PHOENIX.AbilityStr": "Strength",
-  "PHOENIX.AbilityCon": "Constitution",
-  "PHOENIX.AbilityDex": "Dexterity",
-  "PHOENIX.AbilityInt": "Intelligence",
-  "PHOENIX.AbilityWis": "Wisdom",
-  "PHOENIX.AbilityCha": "Charisma",
+  "BOILERPLATE.AbilityStr": "Strength",
+  "BOILERPLATE.AbilityCon": "Constitution",
+  "BOILERPLATE.AbilityDex": "Dexterity",
+  "BOILERPLATE.AbilityInt": "Intelligence",
+  "BOILERPLATE.AbilityWis": "Wisdom",
+  "BOILERPLATE.AbilityCha": "Charisma",
 
-  "PHOENIX.AbilityStrAbbr": "str",
-  "PHOENIX.AbilityConAbbr": "con",
-  "PHOENIX.AbilityDexAbbr": "dex",
-  "PHOENIX.AbilityIntAbbr": "int",
-  "PHOENIX.AbilityWisAbbr": "wis",
-  "PHOENIX.AbilityChaAbbr": "cha",
+  "BOILERPLATE.AbilityStrAbbr": "str",
+  "BOILERPLATE.AbilityConAbbr": "con",
+  "BOILERPLATE.AbilityDexAbbr": "dex",
+  "BOILERPLATE.AbilityIntAbbr": "int",
+  "BOILERPLATE.AbilityWisAbbr": "wis",
+  "BOILERPLATE.AbilityChaAbbr": "cha",
 
-  "PHOENIX.EffectCreate": "Create Effect",
-  "PHOENIX.EffectToggle": "Toggle Effect",
-  "PHOENIX.EffectEdit": "Edit Effect",
-  "PHOENIX.EffectDelete": "Delete Effect",
+  "BOILERPLATE.EffectCreate": "Create Effect",
+  "BOILERPLATE.EffectToggle": "Toggle Effect",
+  "BOILERPLATE.EffectEdit": "Edit Effect",
+  "BOILERPLATE.EffectDelete": "Delete Effect",
 
-  "PHOENIX.Add": "Add"
+  "BOILERPLATE.Add": "Add"
 }
