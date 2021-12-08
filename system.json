@@ -18,10 +18,11 @@
   ],
   "languages": [
     {
-      "lang": "esp",
-      "name": "Español",
-      "path": "lang/en.json"
+      "lang":"es",
+      "name":"Spanish",
+      "path":"lang/es.json"
     }
+      
   ],
   "packs": [],
   "system": [],
