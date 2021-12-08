@@ -76,7 +76,7 @@
         "weapon": {
             "templates": ["itemDescription"],
             "attackWith": "guns",
-            "damage": 0,
+            "daño": 0,
             "concealment": 0,
             "reload": 0,
             "mookBonus": 0,
