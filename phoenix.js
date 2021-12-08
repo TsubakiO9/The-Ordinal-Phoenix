@@ -16,7 +16,7 @@ import ItemSheetPhoenix from "./module/item/sheet.js";
 /* -------------------------------------------- */
 
 Hooks.once("init", function() {
-    console.log(`DnD5e | Initializing the DnD5e Game System\n${DND5E.ASCII}`);
+    console.log(`PHOENIX | Initializing the DnD5e Game System\n${PHOENIX.ASCII}`);
 
 // Registro de plantillas:
     Actors.unregisterSheet("core", ActorSheet);
