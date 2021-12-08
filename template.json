@@ -71,23 +71,72 @@
         },
 
     "Item": {
-        "types":["weapon","vehicle"],
-        "templates":{"itemDesciption":{"description":""}},
-        "weapon": {
-            "templates": ["itemDescription"],
-            "attackWith": "guns",
-            "daño": 0,
-            "concealment": 0,
-            "reload": 0,
-            "mookBonus": 0,
-            "pumpAction": false
-        },
-        "vehicle": {
-            "templates": ["itemDescription"],
-            "aceleration": 0,
-            "frame": 0,
-            "handling": 0,
-            "personal": false
+        "types": [ "arma","consumible","mochila","clase" ],
+        "templates": {
+            "común": {       
+                "atributos": {
+                    "agl": {"valor": 0,"bono": 0},
+                    "con": {"valor": 0,"bono": 0},
+                    "des": {"valor": 0,"bono": 0},
+                    "fue": {"valor": 0,"bono": 0},
+                    "int": {"valor": 0,"bono": 0},
+                    "pod": {"valor": 0,"bono": 0}                    },
+                "caracteristicas": {
+                    "pa": {"valor": 0,"bono": 0},
+                    "pm": {"valor": 0,"bono": 0},
+                    "curación": {"valor": 0,"bono": 0},
+                    "muerte": {"valor": 0,"bono": 0},
+                        
+                    "iniciativa": {"valor": 0,"bono": 0},
+                    "velocidad": {"valor": 0,"bono": 0},
+    
+                    "mele": {"valor": 0,"bono": 0},
+                    "rango": {"valor": 0,"bono": 0},
+                    "magia": {"valor": 0,"bono": 0},
+                    "defensa": {"valor": 0,"bono": 0},
+    
+                    "bloquear": {"valor": 0,"bono": 0},
+                    "evadir": {"valor": 0,"bono": 0}
+                },
+                "dominios": {
+                    "fis": {"valor": 0,"bono": ""},
+                    "soc": {"valor": 0,"bono": ""},
+                    "sub": {"valor": 0,"bono": ""},
+                    "int": {"valor": 0,"bono": ""},
+                    "cre": {"valor": 0,"bono": ""},
+                    "per": {"valor": 0,"bono": ""}
+                },
+                "resistencias": {
+                    "frio": {"valor": 0,"bono": "con"},
+                    "calor": {"valor": 0,"bono": "con"},
+                    "electrica": {"valor": 0,"bono": "con"},
+                    "emfermedad": {"valor": 0,"bono": "con"},
+                    "fisica": {"valor": 0,"bono": "con"},
+                    "veneno": {"valor": 0,"bono": "con"}
+                },
+    
+                "detalles": {
+                    "biografia": {
+                        "value": "",
+                        "public": ""
+                    }
+                },
+    
+                "moneda": {
+                    "Radiant": 0
+                }
+            }
         }
-    }
+            
+    },
+    
+        "": {
+            "templates": ["común"],
+            "xp": {
+                "valor": 0,
+                "min": 0,
+                "max": 300
+            }
+        }
+
 }

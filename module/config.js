@@ -48,7 +48,7 @@ PHOENIX.Resistencias = {
 
 PHOENIX.attackTypes = {
     none: "",
-    arma: "PHOENIX.attack.arma",
+    damage: "PHOENIX.attack.guns",
     arteMarcial: "PHOENIX.attack.ArteMarcial",
     criatura: "PHOENIX.attack.criatura"
 }
