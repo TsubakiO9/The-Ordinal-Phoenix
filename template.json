@@ -44,17 +44,6 @@
                     "emfermedad": {"valor": 0,"bono": "con"},
                     "fisica": {"valor": 0,"bono": "con"},
                     "veneno": {"valor": 0,"bono": "con"}
-                },
-
-                "detalles": {
-                    "biografia": {
-                        "value": "",
-                        "public": ""
-                    }
-                },
-
-                "moneda": {
-                    "Radiant": 0
                 }
             }
         }
