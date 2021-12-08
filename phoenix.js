@@ -17,6 +17,11 @@ import ItemSheetPhoenix from "./module/item/sheet.js";
 
 Hooks.once("init", function() {
     console.log(`PHOENIX | Initializing the DnD5e Game System\n${PHOENIX.ASCII}`);
+     // Record Configuration Values:
+    CONFIG.PHOENIX = PHOENIX;
+    CONFIG.Actor.documentClass = ActorPhoenix;
+    CONFIG.Item.documentClass = ItemPhoenix;
+    CONFIG.time.roundTime = 10;
 
 // Registro de plantillas:
     Actors.unregisterSheet("core", ActorSheet);
@@ -35,11 +40,9 @@ Hooks.once("init", function() {
         makeDefault: true,
     });
 
- // Record Configuration Values:
- CONFIG.PHOENIX = PHOENIX;
- CONFIG.Actor.documentClass = ActorPhoenix;
- CONFIG.Item.documentClass = ItemPhoenix;
- CONFIG.time.roundTime = 10;
+   // Iniciativa:
+   CONFIG.Combat.initiative.formula = "1d20 + @attributes.init.mod + @attributes.init.prof + @attributes.init.bonus + @abilities.dex.bonuses.check + @bonuses.abilities.check";
+   Combatant.prototype._getInitiativeFormula = _getInitiativeFormula;
 
 // Preload Handlebars Templates
     return preloadHandlebarsTemplates();
