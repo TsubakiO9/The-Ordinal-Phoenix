@@ -33,16 +33,21 @@ Hooks.once("init", function() {
     CONFIG.Item.documentClass = ItemPhoenix;
     CONFIG.time.roundTime = 10;
 
+// Register System Settings
+    registerSystemSettings();
+
 // Registro de plantillas:
     Actors.unregisterSheet("core", ActorSheet);
     Actors.registerSheet("phoenix", ActorSheetPhoenixPNJ, {
         types: ["PNJ"],
         makeDefault: true,
+        label: "PHOENIX.SheetClassPNJ"
     });
 
     Actors.registerSheet("phoenix", ActorSheetPhoenixNPC, {
         types: ["NPC"],
         makeDefault: true,
+        label: "PHOENIX.SheetClassNPC"
     });
 
     Items.unregisterSheet("core", ItemSheet);
