@@ -1,10 +1,10 @@
 // Import document classes.
-import { PhoenixActor } from "./documents/actor.js";
-import { PhoenixItem } from "./documents/item.js";
+import { PhoenixActor } from "./documents/actor.mjs";
+import { PhoenixItem } from "./documents/item.mjs";
 
 // Import sheet classes.
-import { PhoenixActorSheet } from "./sheets/actor-sheet.js";
-import { PhoenixItemSheet } from "./sheets/item-sheet.js";
+import { PhoenixActorSheet } from "./sheets/actor-sheet.mjs";
+import { PhoenixItemSheet } from "./sheets/item-sheet.mjs";
 
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from "./helpers/templates.js";
