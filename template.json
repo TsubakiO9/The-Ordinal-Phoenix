@@ -15,19 +15,19 @@
                     "pa": {"valor": 0,"bono": 0},
                     "pm": {"valor": 0,"bono": 0},
 
-                    "cura": {"valor": 0,"bono": 0},
-                    "dead": {"valor": 0,"bono": 0},
+                    "curación": {"valor": 0,"bono": 0},
+                    "muerte": {"valor": 0,"bono": 0},
                     
-                    "ini": {"valor": 0,"bono": 0},
-                    "vel": {"valor": 0,"bono": 0},
+                    "iniciativa": {"valor": 0,"bono": 0},
+                    "velocidad": {"valor": 0,"bono": 0},
 
                     "mele": {"valor": 0,"bono": 0},
                     "rango": {"valor": 0,"bono": 0},
                     "magia": {"valor": 0,"bono": 0},
-                    "def": {"valor": 0,"bono": 0},
+                    "defensa": {"valor": 0,"bono": 0},
 
-                    "bloq": {"valor": 0,"bono": 0},
-                    "eva": {"valor": 0,"bono": 0}
+                    "bloquear": {"valor": 0,"bono": 0},
+                    "evadir": {"valor": 0,"bono": 0}
                 },
                 "dominios": {
                     "fis": {"valor": 0,"bono": ""},
@@ -40,9 +40,9 @@
                 "resistencias": {
                     "frio": {"valor": 0,"bono": "con"},
                     "calor": {"valor": 0,"bono": "con"},
-                    "electricidad": {"valor": 0,"bono": "con"},
+                    "electrica": {"valor": 0,"bono": "con"},
                     "emfermedad": {"valor": 0,"bono": "con"},
-                    "fisico": {"valor": 0,"bono": "con"},
+                    "fisica": {"valor": 0,"bono": "con"},
                     "veneno": {"valor": 0,"bono": "con"}
                 },
 
