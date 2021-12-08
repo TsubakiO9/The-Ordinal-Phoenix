@@ -27,7 +27,7 @@ Hooks.once("init", function() {
     });
 
     Actors.registerSheet("phoenix", ActorSheetPhoenixNPC, {
-        types: ["npc"],
+        types: ["NPC"],
         makeDefault: true,
         label: "PHOENIX.SheetClassNPC"
     });
@@ -38,14 +38,13 @@ Hooks.once("init", function() {
         label: "PHOENIX.SheetClassItem"
     });
 
+ // Record Configuration Values:
+ CONFIG.PHOENIX = PHOENIX;
+ CONFIG.Actor.documentClass = ActorPhoenix;
+ CONFIG.Item.documentClass = ItemPhoenix;
+ CONFIG.time.roundTime = 10;
 
 // Preload Handlebars Templates
     return preloadHandlebarsTemplates();
 });
 
-
- // Record Configuration Values:
- CONFIG.DND5E = DND5E;
- CONFIG.Actor.documentClass = ActorPhoenix;
- CONFIG.Item.documentClass = ItemPhoenix;
- CONFIG.time.roundTime = 10;
