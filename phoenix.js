@@ -8,7 +8,6 @@ import {PHOENIX} from "./module/config.js";
 // Import Applications:
 import ActorSheetPhoenixPNJ from "./module/actor/sheets/.js";
 import ActorSheetPhoenixNPC from "./module/actor/sheets/.js";
-import ActorSheetPhoenixVehicle from "./module/actor/sheets/v.js";
 import ItemSheetPhoenix from "./module/item/sheet.js";
 
 
@@ -30,13 +29,13 @@ Hooks.once("init", function() {
     Actors.registerSheet("phoenix", ActorSheetPhoenixNPC, {
         types: ["npc"],
         makeDefault: true,
-        label: "DND5E.SheetClassNPC"
+        label: "PHOENIX.SheetClassNPC"
     });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("dnd5e", ItemSheet5e, {
+    Items.registerSheet("dnd5e", ItemSheetPhoenix, {
         makeDefault: true,
-        label: "DND5E.SheetClassItem"
+        label: "PHOENIX.SheetClassItem"
     });
 
 
@@ -49,5 +48,4 @@ Hooks.once("init", function() {
  CONFIG.DND5E = DND5E;
  CONFIG.Actor.documentClass = ActorPhoenix;
  CONFIG.Item.documentClass = ItemPhoenix;
- CONFIG.Token.documentClass = TokenDocument5e;
  CONFIG.time.roundTime = 10;

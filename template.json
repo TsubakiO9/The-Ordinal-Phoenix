@@ -1,6 +1,6 @@
 {
     "Actor": {
-        "types": [ "PNJ","NPC","Vehiculos" ],
+        "types": [ "PNJ","NPC" ],
         "templates": {
             "común": {       
                 "atributos": {
