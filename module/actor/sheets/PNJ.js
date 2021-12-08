@@ -1,8 +1,11 @@
 import ActorSheetPhoenix from "./base.js";
 
 export default class ActorSheetPhoenixPNJ extends ActorSheetPhoenix {
-    get template() {
-        const path = "systems/phoenix/templates/items/";
-        return `${path}/${this.item.data.type}-.html`;
-    }
+    static get defaultOptions() {
+        return mergeObject(super.defaultOptions, {
+          classes: ["phoenix", "sheet", "actor", "pnj"],
+          width: 720,
+          height: 680
+        });
+      }
 }
