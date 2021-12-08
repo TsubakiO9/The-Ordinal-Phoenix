@@ -74,14 +74,20 @@
         "types": [ "arma","consumible","mochila","clase" ],
         "templates": {
             "común": {       
-                "atributos": {
-                    "agl": {"valor": 0,"bono": 0},
-                    "con": {"valor": 0,"bono": 0},
-                    "des": {"valor": 0,"bono": 0},
-                    "fue": {"valor": 0,"bono": 0},
-                    "int": {"valor": 0,"bono": 0},
-                    "pod": {"valor": 0,"bono": 0}                    
-                }
+                "description": ""
+            },
+            "item": {
+                "templates": ["base"],
+                "quantity": 1,
+                "weight": 0,
+                "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+            },
+            "feature": {
+                "templates": ["base"]
+            },
+            "spell": {
+                "templates": ["base"],
+                "spellLevel": 1
             }
         }      
     }
