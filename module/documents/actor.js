@@ -31,7 +31,7 @@ export class PhoenixActor extends Actor {
   prepareDerivedData() {
     const actorData = this.data;
     const data = actorData.data;
-    const flags = actorData.flags.boilerplate || {};
+    const flags = actorData.flags.phoenix || {};
 
     // Make separate methods for each Actor type (character, npc, etc.) to keep
     // things organized.
