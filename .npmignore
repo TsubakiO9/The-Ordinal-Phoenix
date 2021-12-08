@@ -5,6 +5,3 @@
 # Node Modules
 node_modules/
 npm-debug.log
-
-# Foundry
-*.lock
