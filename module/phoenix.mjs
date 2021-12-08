@@ -7,8 +7,8 @@ import { PhoenixActorSheet } from "./sheets/actor-sheet.mjs";
 import { PhoenixItemSheet } from "./sheets/item-sheet.mjs";
 
 // Import helper/utility classes and constants.
-import { preloadHandlebarsTemplates } from "./helpers/templates.js";
-import { PHOENIX } from "./helpers/config.js";
+import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
+import { PHOENIX } from "./helpers/config.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
