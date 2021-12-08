@@ -3,7 +3,8 @@ import {PHOENIX} from "./module/config.js";
 
 
 // Import Documents:
-
+import ActorPhoenix from "./module/actor/entity.js";
+import ItemPhoenix from "./module/item/entity.js";
 
 // Import Applications:
 import ActorSheetPhoenixPNJ from "./module/actor/sheets/PNJ.js";
@@ -18,23 +19,15 @@ import ItemSheetPhoenix from "./module/item/sheet.js";
 Hooks.once("init", function() {
     console.log(`Phoenix | Initializing Ordinal Adventure System\n${PHOENIX.ASCII}`);
 
-    game.dnd5e = {
+    game.phoenix = {
         applications: {
-          AbilityUseDialog,
-          ActorSheetFlags,
           ActorSheetPhoenixPNJ,
           ActorSheetPhoenixNPC,
           ItemSheetPhoenix,
-          ShortRestDialog,
-          TraitSelector,
-          ActorMovementConfig,
-          ActorSensesConfig,
-          ActorAbilityConfig,
-          ActorSkillConfig
         },
     }
 
-    // Record Configuration Values:
+// Record Configuration Values:
     CONFIG.PHOENIX = PHOENIX;
     CONFIG.Actor.documentClass = ActorPhoenix;
     CONFIG.Item.documentClass = ItemPhoenix;
