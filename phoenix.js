@@ -16,7 +16,7 @@ import ItemSheetPhoenix from "./module/item/sheet.js";
 /* -------------------------------------------- */
 
 Hooks.once("init", function() {
-    console.log(`PHOENIX | Initializing the DnD5e Game System\n${PHOENIX.ASCII}`);
+    console.log(`Phoenix | Initializing Ordinal Adventure System\n${PHOENIX.ASCII}`);
      // Record Configuration Values:
     CONFIG.PHOENIX = PHOENIX;
     CONFIG.Actor.documentClass = ActorPhoenix;
