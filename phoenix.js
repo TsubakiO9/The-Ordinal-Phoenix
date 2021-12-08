@@ -43,8 +43,5 @@ Hooks.once("init", function() {
    // Iniciativa:
    CONFIG.Combat.initiative.formula = "1d20 + @attributes.init.mod + @attributes.init.prof + @attributes.init.bonus + @abilities.dex.bonuses.check + @bonuses.abilities.check";
    Combatant.prototype._getInitiativeFormula = _getInitiativeFormula;
-
-// Preload Handlebars Templates
-    return preloadHandlebarsTemplates();
 });
 
