@@ -16,6 +16,7 @@
         "biography": ""
       }
     },
+
     "character": {
       "templates": ["base"],
       "attributes": {
@@ -24,31 +25,23 @@
         }
       },
       "abilities": {
-        "agl": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "des": {
-          "value": 10
-        },
-        "fue": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "pod": {
-          "value": 10
-        }
+        "agl": {"value": 10},
+        "con": {"value": 10},
+        "des": {"value": 10},
+        "fue": {"value": 10},
+        "int": {"value": 10},
+        "pod": {"value": 10}
       }
     },
+
     "npc": {
       "templates": ["base"],
       "cr": 0
     }
   },
+
+// ITEMS
+
   "Item": {
     "types": ["item", "feature", "spell"],
     "templates": {
