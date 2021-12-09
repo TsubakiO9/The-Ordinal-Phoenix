@@ -68,8 +68,8 @@ export class PhoenixActorSheet extends ActorSheet {
    */
   _prepareCharacterData(context) {
     // Handle ability scores.
-    for (let [k, v] of Object.entries(context.data.abilities)) {
-      v.label = game.i18n.localize(CONFIG.PHOENIX.abilities[k]) ?? k;
+    for (let [k, v] of Object.entries(context.data.atributos)) {
+      v.label = game.i18n.localize(CONFIG.PHOENIX.atributos[k]) ?? k;
     }
   }
 
