@@ -32,7 +32,7 @@ Hooks.once('init', async function() {
    * @type {String}
    */
   CONFIG.Combat.initiative = {
-    formula: "1d100 + @abilities.dex.mod",
+    formula: "1d100 + @atributos.dex.mod",
     decimals: 2
   };
 
@@ -103,7 +103,7 @@ async function createItemMacro(data, slot) {
       type: "script",
       img: item.img,
       command: command,
-      flags: { "boilerplate.itemMacro": true }
+      flags: { "phoenix.itemMacro": true }
     });
   }
   game.user.assignHotbarMacro(macro, slot);

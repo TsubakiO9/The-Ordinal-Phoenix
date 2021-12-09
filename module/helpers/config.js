@@ -4,7 +4,7 @@ export const PHOENIX = {};
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- PHOENIX.abilities = {
+ PHOENIX.atributos = {
   "agl": "PHOENIX.AtributoAgl",
   "con": "PHOENIX.AtributoCon",
   "des": "PHOENIX.AtributoDes",
@@ -13,11 +13,11 @@ export const PHOENIX = {};
   "pod": "PHOENIX.AtributoPod"
 };
 
-PHOENIX.abilityAbbreviations = {
-  "agl": "PHOENIX.AtributoAglAbbr",
-  "con": "PHOENIX.AtributoConAbbr",
-  "des": "PHOENIX.AtributoDesAbbr",
-  "fue": "PHOENIX.AtributoFueAbbr",
-  "int": "PHOENIX.AtributoIntAbbr",
-  "pod": "PHOENIX.AtributoPodAbbr"
+PHOENIX.atributosAbreviaciones = {
+  "agl": "PHOENIX.AtributoAglAbr",
+  "con": "PHOENIX.AtributoConAbr",
+  "des": "PHOENIX.AtributoDesAbr",
+  "fue": "PHOENIX.AtributoFueAbr",
+  "int": "PHOENIX.AtributoIntAbr",
+  "pod": "PHOENIX.AtributoPodAbr"
 };
