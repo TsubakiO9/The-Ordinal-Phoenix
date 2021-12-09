@@ -49,9 +49,9 @@ export class PhoenixActor extends Actor {
     const data = actorData.data;
 
     // Loop through ability scores, and add their modifiers to our sheet output.
-    for (let [key, ability] of Object.entries(data.abilities)) {
+    for (let [key, atributo] of Object.entries(data.atributos)) {
       // Calculate the modifier using d20 rules.
-      ability.mod = Math.floor((ability.value - 10) / 2);
+      atributo.mod = Math.floor((atributo.value - 10) / 2);
     }
   }
 
@@ -87,8 +87,8 @@ export class PhoenixActor extends Actor {
 
     // Copy the ability scores to the top level, so that rolls can use
     // formulas like `@str.mod + 4`.
-    if (data.abilities) {
-      for (let [k, v] of Object.entries(data.abilities)) {
+    if (data.atributos) {
+      for (let [k, v] of Object.entries(data.atributos)) {
         data[k] = foundry.utils.deepClone(v);
       }
     }
