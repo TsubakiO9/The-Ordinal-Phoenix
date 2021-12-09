@@ -66,7 +66,7 @@
           <div class="atributos flexcol">
             {{#each data.atributos as |atributo key|}}
             <div class="atributo flexrow flex-group-center">
-              <label for="data.atributos.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="d20+@atributos.{{key}}.mod" data-label="{{atributo.label}}">{{atributo.label}}</label>
+              <label for="data.atributos.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="d100+@atributos.{{key}}.mod" data-label="{{atributo.label}}">{{atributo.label}}</label>
               <input type="text" name="data.atributos.{{key}}.value" value="{{atributo.value}}" data-dtype="Number"/>
               <span class="atributo-mod rollable" data-roll="d100+@atributos.{{key}}.mod" data-label="{{atributo.label}}">{{numberFormat atributo.mod decimals=0 sign=true}}</span>
             </div>
