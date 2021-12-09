@@ -24,7 +24,7 @@
           "value": 1
         }
       },
-      "abilities": {
+      "atributos": {
         "agl": {"value": 10},
         "con": {"value": 10},
         "des": {"value": 10},
@@ -60,7 +60,7 @@
     },
     "spell": {
       "templates": ["base"],
-      "spellLevel": 100
+      "spellLevel": 1
     }
   }
 }

@@ -5,19 +5,19 @@ export const PHOENIX = {};
  * @type {Object}
  */
  PHOENIX.abilities = {
-  "str": "PHOENIX.AbilityStr",
-  "dex": "PHOENIX.AbilityDex",
-  "con": "PHOENIX.AbilityCon",
-  "int": "PHOENIX.AbilityInt",
-  "wis": "PHOENIX.AbilityWis",
-  "cha": "PHOENIX.AbilityCha"
+  "agl": "PHOENIX.AtributoAgl",
+  "con": "PHOENIX.AtributoCon",
+  "des": "PHOENIX.AtributoDes",
+  "fue": "PHOENIX.AtributoFue",
+  "int": "PHOENIX.AtributoInt",
+  "pod": "PHOENIX.AtributoPod"
 };
 
 PHOENIX.abilityAbbreviations = {
-  "str": "PHOENIX.AbilityStrAbbr",
-  "dex": "PHOENIX.AbilityDexAbbr",
-  "con": "PHOENIX.AbilityConAbbr",
-  "int": "PHOENIX.AbilityIntAbbr",
-  "wis": "PHOENIX.AbilityWisAbbr",
-  "cha": "PHOENIX.AbilityChaAbbr"
+  "agl": "PHOENIX.AtributoAglAbbr",
+  "con": "PHOENIX.AtributoConAbbr",
+  "des": "PHOENIX.AtributoDesAbbr",
+  "fue": "PHOENIX.AtributoFueAbbr",
+  "int": "PHOENIX.AtributoIntAbbr",
+  "pod": "PHOENIX.AtributoPodAbbr"
 };
