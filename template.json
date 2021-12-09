@@ -24,22 +24,22 @@
         }
       },
       "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
+        "agl": {
           "value": 10
         },
         "con": {
           "value": 10
         },
+        "des": {
+          "value": 10
+        },
+        "fue": {
+          "value": 10
+        },
         "int": {
           "value": 10
         },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
+        "pod": {
           "value": 10
         }
       }
@@ -60,7 +60,7 @@
       "templates": ["base"],
       "quantity": 1,
       "weight": 0,
-      "formula": "d100 + @str.mod + ceil(@lvl / 2)"
+      "formula": "d100 + @fue.mod + ceil(@lvl / 2)"
     },
     "feature": {
       "templates": ["base"]
