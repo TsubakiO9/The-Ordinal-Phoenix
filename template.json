@@ -40,7 +40,7 @@
     }
   },
 
-// ITEMS
+
 
   "Item": {
     "types": ["item", "feature", "spell"],
@@ -60,7 +60,7 @@
     },
     "spell": {
       "templates": ["base"],
-      "spellLevel": 1
+      "spellLevel": 100
     }
   }
 }
