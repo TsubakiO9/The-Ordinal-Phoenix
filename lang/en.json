@@ -1,10 +1,10 @@
 {
-  "PHOENIX.AbilityFue": "Agilidad",
+  "PHOENIX.AbilityAgl": "Agilidad",
   "PHOENIX.AbilityCon": "Constitution",
-  "PHOENIX.AbilityDex": "Destreza",
-  "PHOENIX.AbilityInt": "Fuerza",
-  "PHOENIX.AbilityWis": "Inteligencia",
-  "PHOENIX.AbilityCha": "Poder",
+  "PHOENIX.AbilityDes": "Destreza",
+  "PHOENIX.AbilityFue": "Fuerza",
+  "PHOENIX.AbilityInt": "Inteligencia",
+  "PHOENIX.AbilityPod": "Poder",
 
   "PHOENIX.AbilityAglAbbr": "agl",
   "PHOENIX.AbilityConAbbr": "con",
